@@ -62,6 +62,6 @@ if __name__ == '__main__':
     pizza = Pepper(pizza)
     pizza = Cheese(pizza)  # Добавляем сыр между перцем и повторяющимся перцем
     pizza = Pepper(pizza)
-    pizza = Pepper(pizza)
+    pizza = Cheese(pizza)  # Добавляем еще сыр после второго перца
     print_pizza_to_ui(pizza)
 
